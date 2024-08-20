@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    background-color: #F48FB1; /* Optional background color for the page */
+    
+}
+.app__birthdaycard {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 10px; /* Space between items */
+    text-align: center; /* Center text within the columns */
+    padding: 20px; /* Add some padding around the container */
+
+}
+
+.app__birthdaycard-component {
+    padding: 10px; /* Padding inside the text block */
+   
+}
+
+.birthdaycard-component-p1 {
+    font-size: 48px; /* Font size for the main birthday message */
+    color: #FFFFFF ; /* Dark color for text */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; /* Remove default margin */
+}
+
+.birthdaycard-component-p2{
+    font-size: 24px; /* Font size for the secondary message */
+    color: #FFFFFF ; /* Slightly lighter color for text */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; /* Remove default margin */
+}
+.birthdaycard-component-p3{
+    font-size: 18px; /* Font size for the secondary message */
+    color: #FFFFFF ; /* Slightly lighter color for text */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; /* Remove default margin */
+    border: 2px solid #FFFFFF;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; /* Full width of the container */
+    margin-top: 20px; /* Optional margin to create space */
+  }
+  
+  .birthdaycard-component-audio {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    z-index: 10; /* Ensure it’s above other content */
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+.birthdaycard-component-audio{
+    font-size: 18px; /* Font size for the secondary message */
+    color: #FFFFFF ; /* Slightly lighter color for text */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; /* Remove default margin */
+    border: 2px solid #FFFFFF;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.birthdaycard-component-audio:hover{
+    cursor: pointer;
+    color: #FFF5E1 ;
+    font-weight: bold;
+
+}
+
+.birthdaycard-component-p4{
+    text-align: left;
+    font-size: 18px; /* Font size for the secondary message */
+    color: #FFFFFF ; /* Slightly lighter color for text */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding-bottom: 5px;
+    font-weight: 500;
+  
+}
+/* Define the typewriter effect */
+.typewriter {
+    font-family: 'Quicksand', sans-serif; /* Use the Quicksand font */
+    font-size: 18px; /* Adjust font size as needed */
+    color: #FFFFFF; /* Text color */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow */
+    border-right: none; /* Remove cursor */
+    animation: typing 3.5s steps(30, end); /* Typewriter animation */
+}
+
+/* Define the typing animation */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
