@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Birthday/%3E/static/css/main.bb09bfb0.css",
-    "main.js": "/Birthday/%3E/static/js/main.43a8467e.js",
-    "static/media/Fly Me To The Moon (Cover) by The Macarons Project.mp3": "/Birthday/%3E/static/media/Fly Me To The Moon (Cover) by The Macarons Project.1ec5c310a34c7e7aa26b.mp3",
-    "index.html": "/Birthday/%3E/index.html",
-    "main.bb09bfb0.css.map": "/Birthday/%3E/static/css/main.bb09bfb0.css.map",
-    "main.43a8467e.js.map": "/Birthday/%3E/static/js/main.43a8467e.js.map"
+    "main.css": "/Birthday/static/css/main.bb09bfb0.css",
+    "main.js": "/Birthday/static/js/main.3214d495.js",
+    "static/media/Fly Me To The Moon (Cover) by The Macarons Project.mp3": "/Birthday/static/media/Fly Me To The Moon (Cover) by The Macarons Project.1ec5c310a34c7e7aa26b.mp3",
+    "index.html": "/Birthday/index.html",
+    "main.bb09bfb0.css.map": "/Birthday/static/css/main.bb09bfb0.css.map",
+    "main.3214d495.js.map": "/Birthday/static/js/main.3214d495.js.map"
   },
   "entrypoints": [
     "static/css/main.bb09bfb0.css",
-    "static/js/main.43a8467e.js"
+    "static/js/main.3214d495.js"
   ]
 }
