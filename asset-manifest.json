@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "//piropironepal.github.io/Birthday/%3E/static/css/main.bb09bfb0.css",
+    "main.js": "//piropironepal.github.io/Birthday/%3E/static/js/main.7ad0d06f.js",
+    "static/media/Fly Me To The Moon (Cover) by The Macarons Project.mp3": "//piropironepal.github.io/Birthday/%3E/static/media/Fly Me To The Moon (Cover) by The Macarons Project.1ec5c310a34c7e7aa26b.mp3",
+    "index.html": "//piropironepal.github.io/Birthday/%3E/index.html",
+    "main.bb09bfb0.css.map": "//piropironepal.github.io/Birthday/%3E/static/css/main.bb09bfb0.css.map",
+    "main.7ad0d06f.js.map": "//piropironepal.github.io/Birthday/%3E/static/js/main.7ad0d06f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb09bfb0.css",
+    "static/js/main.7ad0d06f.js"
+  ]
+}
